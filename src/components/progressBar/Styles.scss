@@ -1,0 +1,22 @@
+@import '../../styles/utils/colors';
+@import '../../styles/utils/mixins';
+@import '../../styles/utils/breakpoints';
+
+.track {
+  width: 100%;
+  height: 5px;
+  background-color: $elephant-paw;
+  border-radius: 10px;
+  box-shadow: insert 0 0 5px #000;
+  position: relative;
+
+  &--thumb {
+    width: 20%;
+    height: 300%;
+    background-color: $barney;
+    border-radius: 8px 0px 0px 8px;
+    position: absolute;
+    top: 50%;
+    margin-top: -7px;
+  }
+}
